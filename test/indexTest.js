@@ -10,7 +10,7 @@ describe('moveDodgerLeft()', () => {
     moveDodgerLeft()
 
     var newPosition = dodger.style.left
-    newPosition = parseInt(newPosition)
+    newPosition = parseInt(newPosition) 
 
     expect(newPosition).to.be.below(left)
   })
